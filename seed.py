@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from model import Restaurant,Review,Customer
+from lib.model import Restaurant,Review,Customer
 
 
 if __name__ == '__main__':
